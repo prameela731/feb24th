@@ -1,0 +1,22 @@
+x=input()
+l=x.split()
+n=len(l)
+o=[]
+e=[]
+for i in range(n):
+    j=i+1
+    if j%2==0:
+        e.append(l[i])
+    else:
+        o.append(l[i])
+    print(o,' ',e)
+2 3 4 7 9
+['2']   []
+['2']   ['3']
+['2', '4']   ['3']
+['2', '4']   ['3', '7']
+['2', '4', '9']   ['3', '7']
+
+
+** Process exited - Return Code: 0 **
+Press Enter to exit terminal
